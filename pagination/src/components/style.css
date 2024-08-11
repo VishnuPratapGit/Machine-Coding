@@ -1,0 +1,25 @@
+.pagination {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-inline: 20px;
+}
+
+.pagination>span {
+    padding: 15px;
+    font-size: large;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-left: none;
+}
+
+.pagination>span:first-of-type {
+    border-left: 1px solid gray;
+}
+
+.active {
+    background-color: buttonface;
+}
