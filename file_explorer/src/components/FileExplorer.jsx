@@ -7,7 +7,6 @@ const FileExplorer = ({ folderData }) => {
     const [folderName, setFolderName] = useState("");
     const [isFolderEdit, setIsFolderEdit] = useState(false);
     const [isFileEdit, setIsFileEdit] = useState(false);
-    console.log(folderData);
 
     function folderEdit() {
         setIsFolderEdit(!isFolderEdit);
