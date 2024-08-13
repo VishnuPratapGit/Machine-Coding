@@ -1,0 +1,21 @@
+.type__name {
+    width: 200px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 1px 8px 1px 5px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.childrens {
+    padding-left: 20px;
+}
+
+.create__span>abbr {
+    text-decoration: none;
+    padding: 5px;
+}

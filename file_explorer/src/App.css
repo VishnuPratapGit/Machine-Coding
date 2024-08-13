@@ -1,19 +1,6 @@
-.type__name{
-    cursor: pointer;
-    user-select: none;
-    border-radius: 5px;
-    margin: 3px;
-    padding: 1px 8px 1px 5px;
-    
-}
-
-.container{
+.container {
     background-color: rgb(219, 239, 255);
     width: max-content;
     border-radius: 10px;
     padding: 10px;
-}
-
-.childrens{
-    padding-left: 20px;
 }
